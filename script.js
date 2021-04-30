@@ -114,13 +114,13 @@
     let chat = new Chat();
 
 
-    chat.dispMessage('Hello Philip! :)', 'T','left');
-    setTimeout(function () {
-        chat.dispMessage('Hi Sandy! How are you?', 'H', 'right');
-    }, 500);
-    setTimeout(function () {
-        chat.dispMessage('I\'m fine, thank you!', 'T', 'left');
-    }, 1000);
+    // chat.dispMessage('Hello Philip! :)', 'T','left');
+    // setTimeout(function () {
+    //     chat.dispMessage('Hi Sandy! How are you?', 'H', 'right');
+    // }, 500);
+    // setTimeout(function () {
+    //     chat.dispMessage('I\'m fine, thank you!', 'T', 'left');
+    // }, 1000);
     btnConnect.onclick = () => {
         if (chat.connected) {
             chat.disconnect();
