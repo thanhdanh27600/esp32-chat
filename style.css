@@ -85,6 +85,7 @@
         .messages .message.left .text_wrapper {
             background-color: #ffe6cb;
             margin-left: 20px;
+            overflow-wrap: break-word;
         }
 
         .messages .message.left .text_wrapper::after,
