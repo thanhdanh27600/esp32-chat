@@ -110,6 +110,7 @@
             background-color: #c7eafc;
             margin-right: 20px;
             float: right;
+            overflow-wrap: break-word;
         }
 
         .messages .message.right .text_wrapper::after,
